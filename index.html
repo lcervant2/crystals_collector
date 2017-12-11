@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+	
+
+  
+
+  <div class="container">
+			<h1>Crystals Collector Game</h1>
+			<h4><small>You will be given a random number at the start of the game.</small></h4>
+			<h4><small>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</small></h4>
+			<h4><small>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</small></h4>
+			<h4><small>The value of each crystal is hidden from you until you click on it.</small></h4>
+			<h4><small>Each time when the game starts, the game will change the values of each crystal.</small></h4>
+   </div>
+
+  <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+
+  </div>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 randomNumberDiv">
+				<h2 id="randomNumber">random#</h2>
+			</div>
+			<div class="col-md-3 col-md-offset-1 winsLossesDiv">
+				<p id="winsTally">Wins: </p>
+				<p id="lossesTally">losses: </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-1 col-md-offset-1 stone" value="stone1">
+				<img src="">
+			</div>
+			<div class="col-md-1 col-md-offset-1 stone" value="stone2">
+				<img src="">
+			</div>
+			<div class="col-md-1 col-md-offset-1 stone" value="stone3">
+				<img src="">
+			</div>
+			<div class="col-md-1 col-md-offset-1 stone" value="stone4">
+				<img src="">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<p>Your total score is:</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-md-offset-1 scoreDiv">
+				<h2 id="userScore">score</h2>
+			</div>
+		</div>
+	</div>
+<footer class="clearfix">
+	<p class="copyright">Copyright 2017</p>
+	<p class="message">Made with &hearts; by<span class="name">LC</span></p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+</body>
+<script src="scripts/logic.js"></script>
+</html>
